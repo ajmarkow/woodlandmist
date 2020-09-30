@@ -9,3 +9,10 @@ testfestival.add_stage("Palm Stage", 1)
   end 
 end 
       
+describe ('new_festival') do 
+   it('adds a named festival to the festivals class variable') do 
+    testfestival = Festival.new('Coachella')
+    expect(testfestival.name).to(eq("Coachella")) 
+     end 
+      end 
+      
